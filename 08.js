@@ -1,4 +1,4 @@
-/*  Exercise 7:
+/*  Exercise 8:
     -----------
     Write a JavaScript program to concatenate two string except their first characters
 */
