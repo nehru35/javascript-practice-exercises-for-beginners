@@ -4,6 +4,7 @@
 */
 
 const getFileExtension = (str) => str.slice(str.lastIndexOf('.'));
+const fileExtension = (str) => str.slice(str.indexOf('.'));
 
 console.log(getFileExtension('index.html'));
-console.log(getFileExtension('webpack.onfig.js'));
+console.log(fileExtension('webpack.onfig.js'));
