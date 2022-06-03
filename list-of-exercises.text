@@ -1,0 +1,9 @@
+1 - Write a JavaScript program to check two numbers and return true if one of two number is 100 or if the sum of the two number is 100.
+
+2 - Write a JavaScript program to get the extension of a filename.
+
+3 - Write a JavaScript program to replace every character in a given string with the character following it in the alphabet.
+
+4 - Write a JavaScript program to get the current date. Expected output: mm-dd-yyyy, mm/dd/yyyy or dd--mm--yyyy, dd/mm/yyyy
+
+5 - Write a JavaScript program to create a new string adding "New!" in front of a given string. If the given string begins with "New!" already then return the original string.
