@@ -14,37 +14,17 @@ function checkNumber(num1, num2) {
     }
 }
 
-console.log(checkNumber(100, 0));
-console.log(checkNumber(0, 100));
-
-console.log(checkNumber(10, 0));
-console.log(checkNumber(0, 10));
-
-console.log(checkNumber(20, 80));
-console.log(checkNumber(50, 50));
-
-
 function isEqual100(num1, num2) {
     return num1 == 100 || num2 == 100 || num1 + num2 == 100;
 }
 
-console.log(isEqual100(100, 0));
-console.log(isEqual100(0, 100));
+const isEqualTo100 = (a,b) => a === 100 || b === 100 || (a + b) === 100;
+
+console.log(checkNumber(100, 0));
+console.log(checkNumber(0, 100));
 
 console.log(isEqual100(10, 0));
 console.log(isEqual100(0, 10));
-
-console.log(isEqual100(20, 80));
-console.log(isEqual100(50, 50));
-
-
-const isEqualTo100 = (a,b) => a === 100 || b === 100 || (a + b) === 100;
-
-console.log(isEqualTo100(100, 0));
-console.log(isEqualTo100(0, 100));
-
-console.log(isEqualTo100(10, 0));
-console.log(isEqualTo100(0, 10));
 
 console.log(isEqualTo100(20, 80));
 console.log(isEqualTo100(50, 50));
