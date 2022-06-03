@@ -7,7 +7,7 @@
 /* List of some way to solve it */
 
 function checkNumber(num1, num2) {
-    if (num1 == 100 || num2 == 100 || num1 + num2 == 100) {
+    if (num1 === 100 || num2 === 100 || (num1 + num2) === 100) {
         return true;
     } else {
         return false;
@@ -19,6 +19,10 @@ function isEqual100(num1, num2) {
 }
 
 const isEqualTo100 = (a,b) => a === 100 || b === 100 || (a + b) === 100;
+
+const checkNumber = (num1, num2) => 
+    num1 === 100 || num2 === 100 || (num1 + num2) === 100 ? true : false;
+
 
 console.log(checkNumber(100, 0));
 console.log(checkNumber(0, 100));
